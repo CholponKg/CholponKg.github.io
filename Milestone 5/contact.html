@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cholpon Kasymbek Contact</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="milestone4.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Cholpon Kasymbek</h1>
+	<span>Project Manager for Hire</span>
+  </header>
+  <nav>
+    <ul>
+	 <li><a href="index.html">Home</a></li>
+     <li><a href="education.html">My Education</a></li>
+     <li><a href="experience.html">My Professional Experience</a></li>
+     <li><a href="coding.html">My Coding Experience</a></li>
+		<ul>
+			<li><a href="c++.html">C++</a></li>
+			<li><a href="java.html">Java</a></li>
+		</ul>
+	 <li><a href="aboutme.html">Good to Know about Me</a></li>
+	 <li><a href="contact.html">Contact</a></li>
+	 <li><a href="flowchart.html">Flowchart</a></li>
+	</ul> 
+   </nav> 
+ <main>
+<div>
+<script src="httpS://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+<script>
+$(document).ready(function(){
+ $('form').validate();
+ });
+</script>
+<h1>Please, feel free to reach me out!</h1>
+<br>
+<form method="post" id="newsForm"
+      action="http://webdevbasics.net/scripts/demo.php">
+<fieldset>
+<label for="userName">Name:</label>
+<input type="text" name="userName" id="userName" class="required">
+<br>
+<br>
+<label for="userEmail">E-mail:</label>
+<input type="text" name="userEmail" id="userEmail" class="required email">
+</fieldset>
+<br>
+<br>
+
+<fieldset>
+<legend>Your Message:</legend>
+<textarea name="role" id="role" rows="3" cols="60"></textarea>
+</fieldset>
+<br>
+<br>
+<fieldset>
+<legend>Btw, how would you rate the website overall? :)</legend>
+<input type="radio" name="1" id="1" value="yes">1<br>
+<input type="radio" name="2" id="2" value="yes">2<br>
+<input type="radio" name="3" id="3" value="yes">3<br>
+<input type="radio" name="4" id="4" value="yes">4<br>
+<input type="radio" name="5" id="5" value="yes">5<br>
+</fieldset><br>
+
+<button type="reset" value="Reset">Reset</button><br><br>
+<input type="submit" value="Submit">
+</div>
+</form>
+
+
+    </main>
+   <footer><i>Copyright &copy; 2018 Cholpon Kasymbek<i><br></footer>
+ </div><!-- end of wrapper -->
+</body>
+</html>

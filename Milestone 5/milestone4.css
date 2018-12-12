@@ -1,0 +1,105 @@
+* { box-sizing: border-box; }
+body { background-color: #b2e89e;
+		font-family: Verdana, Arial, sans-serif; }
+#wrapper { margin: 0 auto;
+		width: 80%;
+		min-width: 960px; max-width: 1200px;
+		background-color: #0099ff;
+		color: #000066; }
+#mypic { float: left; 
+		 margin: 0 0 5px 5px;
+		 border: 3px ridge #0099ff; }
+header { background-color: #2e8010;
+		background-image: url(lilpic.jpg); 
+		background-repeat: no-repeat;
+		color: #f9f97e;
+		font-size: 150%;
+		padding: 10px 10px 10px 155px;
+		text-align: left; }
+#lilpic { float: right; }
+h1 { margin-bottom: 0; }
+h2 { 	color: #000000;
+		font-family: Arial, sans-serif;
+		text-align: center; 		}
+nav { 	float: right;
+		width: 160px;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	    position: relative;
+		text-align: left;
+		padding-right: 2em; }
+		
+		
+main { background-color: #ffffff;
+		color: #47a226;
+		padding: 10px 20px; 
+		display: block;
+		overflow: auto;
+		text-align: auto; }
+.div { margin: 10px;
+	   padding: 5px; 
+	   width: 100px;
+	   height: 100px;}
+span { padding-left: 20px;
+       font-size: .80em;
+	   font-style: italic;
+       color: #00005D; }
+aside { float: right;
+        width: 200px;
+		background-color: #d5d54e;
+		padding: 20px;
+		margin-right: 40px;
+		font-size: 80%;
+		box-shadow: 5px 5px 5px #333333;
+		position: relative;
+		top: -40px; 
+		}		
+footer { font-size: 70%;
+		text-align: center;
+		padding: 10px;
+		background-color: #2e8010;
+		clear: both;}
+
+#floatright { float: right;
+		margin: 10px; }
+
+nav ul { list-style-type: none; margin: 0; padding: 0; }
+nav li { padding: 0.5em 0; } 
+nav a { text-decoration: none;
+		padding: 20px;
+	    display: block; 
+		background-color: #0099ff;
+		border-bottom: 1px solid #FFFFFF; }
+nav a:link { color: #f9f97e; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover { color: #869dc7;
+		background-color: #0090ff; }
+
+nav ul li a:hover { background-color: green; }
+
+table { margin: auto;
+        border: 10px ridge #0099ff;
+        width: 800px; 
+		border-spacing: 5;
+}
+td, th { padding: 0.5em;
+		 border-style: none;
+         font-family: Arial, sans-serif; 
+}
+
+tr:nth-of-type(even) { background-color: #ffffac; }
+tr:first-of-type { background-color: #2e8010;
+					color: #eaeaea; }
+p  { color: #000000; }
+
+form  { min-width: 50em; }
+input { margin-bottom: 1em; }
+label { width: 5em;
+		padding-right: 1em;
+        text-align: right; }
+#submit { margin-left: 5em; }	
+.error { font-family: Arial, sans-serif;
+			  font-style: italic;
+			  font-size: .90em;
+              color: #FF0000;  
+			  margin-left: 1em; }
